@@ -5,7 +5,7 @@ Channel
 
 process read_table_content {
     echo true
-    //container 'quay.io/lifebitaiorg/ubuntu:18.10'
+    container 'quay.io/lifebitaiorg/ubuntu:18.10'
 
     input:
     file(input_table) from ch_input_table
